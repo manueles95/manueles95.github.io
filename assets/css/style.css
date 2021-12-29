@@ -1,0 +1,147 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+nav .container {
+  max-width: 100%;
+  padding-right: 4vw !important;
+  padding-left: 4vw !important;
+}
+nav.navbar-light {
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1.8vw;
+  padding-bottom: 1.8vw;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  border-bottom: 1px solid #000000;
+}
+
+.content-wrapper {
+  padding-top: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 4vw;
+}
+
+.content-wrapper.banner-wrapper {
+  padding-top: 90px;
+  min-height: 100vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.content-wrapper.banner-wrapper .banner-background {
+  position: absolute;
+  z-index: -9;
+  top: 90px;
+  right: 4vw;
+  bottom: 4vw;
+  left: 4vw;
+  background-image: url(../images/bg-demo.png);
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Buttons css */
+.button-link {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  line-height: normal;
+  padding: 1.5em 2.505em;
+  font-size: 16px;
+  border-radius: 0px;
+}
+.button-link:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+}
+
+section.content-wrapper {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+section .section-heading {
+  text-align: center;
+  white-space: pre-wrap;
+  transition-timing-function: ease;
+  transition-duration: 0.9s;
+  transition-delay: 0.2s;
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.team-member .avatar .image {
+  min-height: 500px;
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+  margin-bottom: 15px;
+}
+
+.team-member .member-name {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+section.blogs-section {
+  background-color: #2824a9;
+  color: white;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+footer.footer {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  background-color: black;
+  color: white;
+}
+
+footer.footer .follow-links a{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    margin-left: 1.5vw;
+  }
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  letter-spacing: 1px;
+}
