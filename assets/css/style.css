@@ -7,20 +7,23 @@ nav .container {
   padding-right: 4vw !important;
   padding-left: 4vw !important;
 }
-nav.navbar-light {
-  background-color: white;
+nav.navbar-dark {
+  background-color: transparent;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 1.8vw;
-  padding-bottom: 1.8vw;
+  padding-top: .8vw;
+  padding-bottom: .8vw;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: #000000;
+.navbar-dark .navbar-brand {
+  font-size: 40px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
 }
-.navbar-light .navbar-nav .nav-link.active {
-  border-bottom: 1px solid #000000;
+.navbar-dark .navbar-nav .nav-link.active {
+  border-bottom: 1px solid #ffffff;
 }
 
 .content-wrapper {
@@ -31,21 +34,55 @@ nav.navbar-light {
 }
 
 .content-wrapper.banner-wrapper {
-  padding-top: 90px;
-  min-height: 100vh;
+  padding-top: 0px;
+  min-height: 90vh;
   display: flex;
   align-self: center;
   justify-content: center;
+  padding-right: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
+}
+
+.banner-wrapper .why-proof{
+  position: absolute;
+  color: white;
+  bottom: 20px;
+}
+
+.banner-wrapper .why-proof h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.banner-wrapper .why-proof .paragraph{
+  font-weight: 700;
+}
+
+.banner-wrapper .why-proof a{
+  color: #f47779;
+  font-weight: 700;
+}
+.separator{
+  width: 3px;
+  background-color: #c7c7c7;
+  height: 100%;
+}
+section.why-proof h3{
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: normal;
+  text-transform: capitalize;
 }
 
 .content-wrapper.banner-wrapper .banner-background {
   position: absolute;
   z-index: -9;
-  top: 90px;
-  right: 4vw;
-  bottom: 4vw;
-  left: 4vw;
-  background-image: url(../images/bg-demo.png);
+  top: 0px;
+  right: 0vw;
+  bottom: 0vw;
+  left: 0vw;
+  background-image: url(../images/bg-demo.jpeg);
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
@@ -123,7 +160,7 @@ footer.footer {
   color: white;
 }
 
-footer.footer .follow-links a{
+footer.footer .follow-links a {
   padding-right: 10px;
   padding-left: 10px;
   font-size: 20px;
